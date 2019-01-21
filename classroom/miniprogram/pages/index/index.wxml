@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="section">
+    <navigator url="../borrowClassroom/borrowClassroom" class="navigator">
+      <view class="navigatorText">我要借教室</view>
+    </navigator>
+  </view>
+</view>
