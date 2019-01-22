@@ -5,7 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    progressList: [
+      {
+        id:1,
+        name:"买买提字",
+        classroom:204,
+        tel:1325124,
+        date:"12/2",
+        isPass:1
+      },
+      {
+        id:2,
+        name:"lmh",
+        classroom:123,
+        tel:13223992144,
+        date:"12/2",
+        isPass:0
+      }
+    ]
   },
 
   /**

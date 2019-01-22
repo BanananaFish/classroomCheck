@@ -4,5 +4,8 @@
     <navigator url="../borrowClassroom/borrowClassroom" class="navigator">
       <view class="navigatorText">我要借教室</view>
     </navigator>
+    <navigator url="../progressCheck/progressCheck" class="navigator">
+      <view class="navigatorText">我要查进度</view>
+    </navigator>
   </view>
 </view>

@@ -1,66 +1,35 @@
-// miniprogram/pages/borrowClassroom/borrowClassroom.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  data:{
+    index:0,
+    date:"2019-01-01"
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  /*在线填表页面点击报名的函数*/
+  submit:function (e) {
+    
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  /*活动日期picker改变的函数*/
+  bindDateChange:function (e) {
+    console.log("picker_date发送选择改变，携带值为",e.detail.value)
+    this.setData({
+      date:e.detail.value
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  /*活动时间picker改变的函数1*/
+  bindTimeChange1:function (e) {
+    console.log("picker_time1发送选择改变，携带值为", e.detail.value)
+    this.setData({
+      time1: e.detail.value
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+   /*活动时间picker改变的函数2*/
+  bindTimeChange2: function (e) {
+    console.log("picker_time2发送选择改变，携带值为", e.detail.value)
+    this.setData({
+      time2: e.detail.value
+    })
   }
 })
