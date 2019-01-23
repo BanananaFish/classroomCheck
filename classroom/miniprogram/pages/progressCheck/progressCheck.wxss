@@ -23,9 +23,8 @@
 
 .flex-cell{
   flex: 1;
-  border-color: rgb(0, 0, 0);
-  border-width: 1px;
-  border-style: solid;
+  border-bottom: 1rpx solid black;
+  border-right: 1rpx solid black;
 }
 
 .progressList{
@@ -33,5 +32,8 @@
 }
 
 .infoForm{
-    flex: 0;
+  flex: 0;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
 }

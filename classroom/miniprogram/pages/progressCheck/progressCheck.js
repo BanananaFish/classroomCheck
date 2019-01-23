@@ -10,7 +10,7 @@ Page({
         id:1,
         name:"买买提字",
         classroom:204,
-        tel:1325124,
+        tel:132512412332,
         date:"12/2",
         isPass:1
       },
